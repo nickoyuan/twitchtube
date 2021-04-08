@@ -124,6 +124,5 @@ THUMBNAILS = {
 # Tags
 # Not supported yet
 TAGS = {
-    "Just Chatting": "just chatting, just chatting clips, just chatting twitch clips",
-    "Team Fortress 2": "tf2, tf2 twitch, tf2 twitch clips",
+    "VALORANT": "valorant montage,valorant plays,valorant funny moments,valorant best highlights,valorant pro plays,twitch moments valorant,twitch stream valorant,twitch most viewed valorant,twitch highlights valorant,valorant best moments,valorant moment,valorant funny,valorant best,valorant epic,valorant funny highlights,valorant best plays,valorant viral,valorant viral moments,valorant viral clips,valorant epic moments,valorant funniest moments,valorant top fails"
 }
