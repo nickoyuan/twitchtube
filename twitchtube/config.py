@@ -6,13 +6,13 @@ import pathlib
 
 # Secrets
 # Twitch Client ID
-CLIENT_ID = ""
+CLIENT_ID = "700c79e2148ufw0shb2t36pqbejz8f"
 
 # Twitch OAuth Token
-OAUTH_TOKEN = ""
+OAUTH_TOKEN = "lbjn02zshyayqgm993gpy07jtubsp0"
 
 # Path to the Firefox profile where you are logged into YouTube
-ROOT_PROFILE_PATH = ""
+ROOT_PROFILE_PATH = "C:\\Users\\nicko\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8zlud8gd.ihatemylife"
 
 # Selenium
 # How many seconds Firefox should sleep for when uploading
@@ -36,7 +36,7 @@ MODE = "game"
 
 # If mode is channel put channel names e.g. ["trainwreckstv", "xqcow"]
 # If mode is game put game names e.g. ["Team Fortress 2", "Just Chatting"]
-LIST = ["Team Fortress 2", "Just Chatting"]
+LIST = ["VALORANT"]
 
 # If clips should be rendered into one video (True/False)
 # If set to False everything else under Video will be ignored
@@ -113,14 +113,12 @@ CATEGORY = 20  # 20 for gaming
 # Descriptions
 # {} will be replaced with a list of streamer names
 DESCRIPTIONS = {
-    "Just Chatting": "Just Chatting twitch clips \n\n{}\n",
-    "Team Fortress 2": "TF2 twitch clips\n\n{}\n",
+    "VALORANT": "Just Chatting twitch clips \n\n{}\n"
 }
 
 # Thumbnails
 THUMBNAILS = {
-    "Just Chatting": "path/to/file.jpg",
-    "Team Fortress 2": "path/to/file.jpg",
+    "VALORANT": "path/to/file.jpg",
 }
 
 # Tags
