@@ -36,7 +36,7 @@ MODE = "game"
 
 # If mode is channel put channel names e.g. ["trainwreckstv", "xqcow"]
 # If mode is game put game names e.g. ["Team Fortress 2", "Just Chatting"]
-LIST = ["VALORANT"]
+LIST = ["Apex Legends"]
 
 # If clips should be rendered into one video (True/False)
 # If set to False everything else under Video will be ignored
@@ -113,17 +113,16 @@ CATEGORY = 20  # 20 for gaming
 # Descriptions
 # {} will be replaced with a list of streamer names
 DESCRIPTIONS = {
-    "VALORANT": "Just Chatting twitch clips \n\n{}\n"
+    "Apex Legends": "Just Chatting twitch clips \n\n{}\n"
 }
 
 # Thumbnails
 THUMBNAILS = {
-    "VALORANT": "path/to/file.jpg",
+    "Apex Legends": "path/to/file.jpg",
 }
 
 # Tags
 # Not supported yet
 TAGS = {
-    "Just Chatting": "just chatting, just chatting clips, just chatting twitch clips",
-    "Team Fortress 2": "tf2, tf2 twitch, tf2 twitch clips",
+    "Apex Legends": "just chatting, just chatting clips, just chatting twitch clips"
 }
