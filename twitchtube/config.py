@@ -113,7 +113,7 @@ CATEGORY = 20  # 20 for gaming
 # Descriptions
 # {} will be replaced with a list of streamer names
 DESCRIPTIONS = {
-    "Apex Legends": "Just Chatting twitch clips \n\n{}\n"
+    "Apex Legends": "Apex Legends most viewed twitch clips \n\n{}\n"
 }
 
 # Thumbnails
