@@ -43,7 +43,7 @@ LIST = ["VALORANT"]
 RENDER_VIDEO = True
 
 # Resoultion of the rendered video (height, width) for 1080p: ((1080, 1920))
-RESOLUTION = (720, 1280)
+RESOLUTION = (1080, 1920)
 
 # Frames per second (30/60)
 FRAMES = 30
@@ -55,7 +55,7 @@ VIDEO_LENGTH = 10.5
 # If any RESIZE option is set to False the video might end up having a weird resolution
 RESIZE_CLIPS = True
 
-# Name of the rendered video
+# Name of the rendered videor
 FILE_NAME = "rendered"
 
 # Name of downloaded clip (slug/title)
@@ -113,7 +113,7 @@ CATEGORY = 20  # 20 for gaming
 # Descriptions
 # {} will be replaced with a list of streamer names
 DESCRIPTIONS = {
-    "VALORANT": "Just Chatting twitch clips \n\n{}\n"
+    "VALORANT": "Valorant most viewed twitch clips \n\n{}\n"
 }
 
 # Thumbnails
