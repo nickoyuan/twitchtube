@@ -45,7 +45,7 @@ def get_title(category: str) -> str:
 
     for i in title:
         # Return the first entry's title
-        return f"{title[i]['title']} - {category} Twitch Highlights"
+        return f"{title[i]['title']} | {category} #Shorts Clips"
 
 
 def get_description(category: str, streamers: list) -> str:

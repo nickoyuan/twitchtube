@@ -43,14 +43,14 @@ LIST = ["VALORANT"]
 RENDER_VIDEO = True
 
 # Resoultion of the rendered video (height, width) for 1080p: ((1080, 1920))
-RESOLUTION = (1080, 1920)
+RESOLUTION = (1920, 1080)
 
 # Frames per second (30/60)
 FRAMES = 30
 
 # Minumum video length in minutes (doesn't always work)
-VIDEO_LENGTH = 10.5
-#VIDEO_LENGTH = 0.5
+#VIDEO_LENGTH = 10.5
+VIDEO_LENGTH = 0.1
 
 # Resize clips to fit RESOLUTION (True/False)
 # If any RESIZE option is set to False the video might end up having a weird resolution
@@ -100,7 +100,7 @@ RETRIES = 5
 
 # Twitch API Request Options
 HEADERS = {"Accept": "application/vnd.twitchtv.v5+json", "Client-ID": CLIENT_ID}
-PARAMS = {"period": "all", "language": "en", "limit": 100}  # 100 is max
+PARAMS = {"period": "day", "language": "en", "limit": 100, "channel": "shroud"}  # 100 is max
 
 
 # YouTube
@@ -114,7 +114,7 @@ CATEGORY = 20  # 20 for gaming
 # Descriptions
 # {} will be replaced with a list of streamer names
 DESCRIPTIONS = {
-    "VALORANT": "Valorant most viewed twitch clips \n\n{}\n"
+    "VALORANT": "#shorts \n clips \n\n{}\n  \n valorant \n valorant wtf \n valorant live \n valorant gameplay \n valorant highlights \n valorant top views \n valorant wtf moments \n valorant tournament"
 }
 
 # Thumbnails
