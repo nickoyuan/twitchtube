@@ -50,6 +50,7 @@ FRAMES = 30
 
 # Minumum video length in minutes (doesn't always work)
 VIDEO_LENGTH = 10.5
+#VIDEO_LENGTH = 0.5
 
 # Resize clips to fit RESOLUTION (True/False)
 # If any RESIZE option is set to False the video might end up having a weird resolution
@@ -99,7 +100,7 @@ RETRIES = 5
 
 # Twitch API Request Options
 HEADERS = {"Accept": "application/vnd.twitchtv.v5+json", "Client-ID": CLIENT_ID}
-PARAMS = {"period": "day", "language": "en", "limit": 100}  # 100 is max
+PARAMS = {"period": "all", "language": "en", "limit": 100}  # 100 is max
 
 
 # YouTube

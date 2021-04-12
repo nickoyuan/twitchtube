@@ -1,4 +1,5 @@
 from datetime import date
+from datetime import datetime, timedelta
 from re import sub
 import json
 
@@ -9,6 +10,8 @@ def get_date() -> str:
     """
     Gets the current date and returns the date as a string.
     """
+    #monthago = datetime.now() - timedelta(20)
+    #return date.strftime(monthago, "%b-%d-%Y")
     return date.today().strftime("%b-%d-%Y")
 
 

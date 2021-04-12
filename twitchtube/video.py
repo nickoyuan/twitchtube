@@ -2,21 +2,22 @@ import os
 
 from twitchtube.logging import Log
 from twitchtube.config import *
-
+import os
+from pathlib import Path
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 
 
 log = Log()
 
 
-def get_clip_paths(path: str) -> list:
+def get_clip_paths(dirpath: str) -> list:
     """
     Gets all the mp4 files listed in the given
     path and returns the paths as a list.
     """
-    return [
-        os.path.join(path, file) for file in os.listdir(path) if file.endswith(".mp4")
-    ]
+    datasorted = [ os.path.join(dirpath, file) for file in os.listdir(dirpath) if file.endswith(".mp4") ]
+    datasorted.sort(key=lambda s: os.path.getmtime(os.path.join(dirpath, s)))
+    return datasorted
 
 
 def add_clip(path: str, resize: bool = True) -> VideoFileClip:
